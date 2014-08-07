@@ -1,0 +1,13 @@
+http://grails.org/plugin/spock
+http://grails.org/doc/latest/guide/testing.html
+http://grails101.wordpress.com/2012/04/22/test-grails-application-with-spock/
+http://www.christianoestreich.com/2012/11/domain-constraints-grails-spock-updated/
+https://github.com/pschneider-manzell/grails-spock-examples
+
+http://www.34m0.com/2012/11/getting-started-with-grails-functional.html
+http://www.infoq.com/presentations/testing-spock-geb
+http://www.infoq.com/presentations/grails-geb-functional-test
+http://fbflex.wordpress.com/2013/03/18/how-to-configure-webdriver-in-grails-for-your-geb-tests/
+http://fbflex.wordpress.com/2010/08/25/geb-and-grails-tips-tricks-and-gotchas/
+http://sysgears.com/articles/gebspock-functional-testing-grails/
+https://github.com/woodcoder/GebSpockInTen
