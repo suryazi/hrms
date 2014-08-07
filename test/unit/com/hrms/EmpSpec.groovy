@@ -15,8 +15,8 @@ class EmpSpec extends ConstraintUnitSpec {
         mockForConstraintsTests(Emp, [new Emp(num: '123456789')])
     }
 
-    def cleanup() {
-    }
+    /*def cleanup() {
+    }*/
 
     @Unroll("test Emp all constraints #field is #error")
     def "test emp all constraints"(){

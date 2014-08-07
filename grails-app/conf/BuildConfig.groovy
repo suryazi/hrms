@@ -53,18 +53,6 @@ grails.project.dependency.resolution = {
         test "org.grails:grails-datastore-test-support:1.0-grails-2.4"
     }
 
-    codenarc.reports = {
-        reportName = 'target/test-reports/CodeNarcReport.xml'
-        reportType = 'xml'
-    }
-
-    coverage{
-        exclusions = [
-            '**/BuildConfig*',
-            '**/*SecurityConfig*'
-        ]
-    }
-
     plugins {
         // plugins for the build system only
         build ":tomcat:7.0.55"
@@ -89,3 +77,17 @@ grails.project.dependency.resolution = {
         //compile ":handlebars-asset-pipeline:1.3.0.3"
     }
 }
+
+codenarc.reports = {
+        Jenkins('xml') {
+            outputFile = 'target/test-reports/CodeNarcReport.xml'
+            title = 'CodeNarc code Report'
+        }
+    }
+
+    coverage{
+        exclusions = [
+            '**/BuildConfig*',
+            '**/*SecurityConfig*'
+        ]
+    }
