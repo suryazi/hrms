@@ -1,0 +1,19 @@
+Testsuite: com.hrms.EmpSpec
+Tests run: 4, Failures: 0, Errors: 0, Time elapsed: 6.451 sec
+------------- Standard Output ---------------
+--Output from test Emp all constraints num is nullable--
+--Output from test Emp all constraints num is unique--
+--Output from test Emp all constraints ename is nullable--
+--Output from test Emp all constraints aname is nullable--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test Emp all constraints num is nullable--
+--Output from test Emp all constraints num is unique--
+--Output from test Emp all constraints ename is nullable--
+--Output from test Emp all constraints aname is nullable--
+------------- ---------------- ---------------
+
+Testcase: test Emp all constraints num is nullable took 5.562 sec
+Testcase: test Emp all constraints num is unique took 0.752 sec
+Testcase: test Emp all constraints ename is nullable took 0.039 sec
+Testcase: test Emp all constraints aname is nullable took 0.042 sec

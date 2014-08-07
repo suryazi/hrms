@@ -1,0 +1,91 @@
+2014-08-07 13:23:27,039 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+obj.errors[field]
+|   |     ||
+|   |     |ename
+|   |     null
+|   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 3 errors
+|   Field error in object 'com.hrms.Emp' on field 'num': rejected value [null]; codes [com.hrms.Emp.num.nullable.error.com.hrms.Emp.num,com.hrms.Emp.num.nullable.error.num,com.hrms.Emp.num.nullable.error.java.lang.String,com.hrms.Emp.num.nullable.error,emp.num.nullable.error.com.hrms.Emp.num,emp.num.nullable.error.num,emp.num.nullable.error.java.lang.String,emp.num.nullable.error,com.hrms.Emp.num.nullable.com.hrms.Emp.num,com.hrms.Emp.num.nullable.num,com.hrms.Emp.num.nullable.java.lang.String,com.hrms.Emp.num.nullable,emp.num.nullable.com.hrms.Emp.num,emp.num.nullable.num,emp.num.nullable.java.lang.String,emp.num.nullable,nullable.com.hrms.Emp.num,nullable.num,nullable.java.lang.String,nullable]; arguments [num,class com.hrms.Emp]; default message [Property [{0}] of class [{1}] cannot be null]
+|   Field error in object 'com.hrms.Emp' on field 'name': rejected value [null]; codes [com.hrms.Emp.name.nullable.error.com.hrms.Emp.name,com.hrms.Emp.name.nullable.error.name,com.hrms.Emp.name.nullable.error.java.lang.String,com.hrms.Emp.name.nullable.error,emp.name.nullable.error.com.hrms.Emp.name,emp.name.nullable.error.name,emp.name.nullable.error.java.lang.String,emp.name.nullable.error,com.hrms.Emp.name.nullable.com.hrms.Emp.name,com.hrms.Emp.name.nullable.name,com.hrms.Emp.name.nullable.java.lang.String,com.hrms.Emp.name.nullable,emp.name.nullable.com.hrms.Emp.name,emp.name.nullable.name,emp.name.nullable.java.lang.String,emp.name.nullable,nullable.com.hrms.Emp.name,nullable.name,nullable.java.lang.String,nullable]; arguments [name,class com.hrms.Emp]; default message [Property [{0}] of class [{1}] cannot be null]
+|   Field error in object 'com.hrms.Emp' on field 'aname': rejected value [null]; codes [com.hrms.Emp.aname.nullable.error.com.hrms.Emp.aname,com.hrms.Emp.aname.nullable.error.aname,com.hrms.Emp.aname.nullable.error.java.lang.String,com.hrms.Emp.aname.nullable.error,emp.aname.nullable.error.com.hrms.Emp.aname,emp.aname.nullable.error.aname,emp.aname.nullable.error.java.lang.String,emp.aname.nullable.error,com.hrms.Emp.aname.nullable.com.hrms.Emp.aname,com.hrms.Emp.aname.nullable.aname,com.hrms.Emp.aname.nullable.java.lang.String,com.hrms.Emp.aname.nullable,emp.aname.nullable.com.hrms.Emp.aname,emp.aname.nullable.aname,emp.aname.nullable.java.lang.String,emp.aname.nullable,nullable.com.hrms.Emp.aname,nullable.aname,nullable.java.lang.String,nullable]; arguments [aname,class com.hrms.Emp]; default message [Property [{0}] of class [{1}] cannot be null]
+com.hrms.Emp : (unsaved)
+
+	at com.hrms.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:34)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at com.hrms.EmpSpec.test emp all constraints(EmpSpec.groovy:27)
+2014-08-07 13:23:27,063 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+obj.errors[field]
+|   |     ||
+|   |     |ename
+|   |     null
+|   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 3 errors
+|   Field error in object 'com.hrms.Emp' on field 'num': rejected value [null]; codes [com.hrms.Emp.num.nullable.error.com.hrms.Emp.num,com.hrms.Emp.num.nullable.error.num,com.hrms.Emp.num.nullable.error.java.lang.String,com.hrms.Emp.num.nullable.error,emp.num.nullable.error.com.hrms.Emp.num,emp.num.nullable.error.num,emp.num.nullable.error.java.lang.String,emp.num.nullable.error,com.hrms.Emp.num.nullable.com.hrms.Emp.num,com.hrms.Emp.num.nullable.num,com.hrms.Emp.num.nullable.java.lang.String,com.hrms.Emp.num.nullable,emp.num.nullable.com.hrms.Emp.num,emp.num.nullable.num,emp.num.nullable.java.lang.String,emp.num.nullable,nullable.com.hrms.Emp.num,nullable.num,nullable.java.lang.String,nullable]; arguments [num,class com.hrms.Emp]; default message [Property [{0}] of class [{1}] cannot be null]
+|   Field error in object 'com.hrms.Emp' on field 'name': rejected value [null]; codes [com.hrms.Emp.name.nullable.error.com.hrms.Emp.name,com.hrms.Emp.name.nullable.error.name,com.hrms.Emp.name.nullable.error.java.lang.String,com.hrms.Emp.name.nullable.error,emp.name.nullable.error.com.hrms.Emp.name,emp.name.nullable.error.name,emp.name.nullable.error.java.lang.String,emp.name.nullable.error,com.hrms.Emp.name.nullable.com.hrms.Emp.name,com.hrms.Emp.name.nullable.name,com.hrms.Emp.name.nullable.java.lang.String,com.hrms.Emp.name.nullable,emp.name.nullable.com.hrms.Emp.name,emp.name.nullable.name,emp.name.nullable.java.lang.String,emp.name.nullable,nullable.com.hrms.Emp.name,nullable.name,nullable.java.lang.String,nullable]; arguments [name,class com.hrms.Emp]; default message [Property [{0}] of class [{1}] cannot be null]
+|   Field error in object 'com.hrms.Emp' on field 'aname': rejected value [null]; codes [com.hrms.Emp.aname.nullable.error.com.hrms.Emp.aname,com.hrms.Emp.aname.nullable.error.aname,com.hrms.Emp.aname.nullable.error.java.lang.String,com.hrms.Emp.aname.nullable.error,emp.aname.nullable.error.com.hrms.Emp.aname,emp.aname.nullable.error.aname,emp.aname.nullable.error.java.lang.String,emp.aname.nullable.error,com.hrms.Emp.aname.nullable.com.hrms.Emp.aname,com.hrms.Emp.aname.nullable.aname,com.hrms.Emp.aname.nullable.java.lang.String,com.hrms.Emp.aname.nullable,emp.aname.nullable.com.hrms.Emp.aname,emp.aname.nullable.aname,emp.aname.nullable.java.lang.String,emp.aname.nullable,nullable.com.hrms.Emp.aname,nullable.aname,nullable.java.lang.String,nullable]; arguments [aname,class com.hrms.Emp]; default message [Property [{0}] of class [{1}] cannot be null]
+com.hrms.Emp : (unsaved)
+
+	at com.hrms.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:34)
+	at com.hrms.EmpSpec.test emp all constraints(EmpSpec.groovy:27)
+2014-08-07 13:23:27,066 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+obj.errors[field]
+|   |     ||
+|   |     |ename
+|   |     null
+|   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 3 errors
+|   Field error in object 'com.hrms.Emp' on field 'num': rejected value [null]; codes [com.hrms.Emp.num.nullable.error.com.hrms.Emp.num,com.hrms.Emp.num.nullable.error.num,com.hrms.Emp.num.nullable.error.java.lang.String,com.hrms.Emp.num.nullable.error,emp.num.nullable.error.com.hrms.Emp.num,emp.num.nullable.error.num,emp.num.nullable.error.java.lang.String,emp.num.nullable.error,com.hrms.Emp.num.nullable.com.hrms.Emp.num,com.hrms.Emp.num.nullable.num,com.hrms.Emp.num.nullable.java.lang.String,com.hrms.Emp.num.nullable,emp.num.nullable.com.hrms.Emp.num,emp.num.nullable.num,emp.num.nullable.java.lang.String,emp.num.nullable,nullable.com.hrms.Emp.num,nullable.num,nullable.java.lang.String,nullable]; arguments [num,class com.hrms.Emp]; default message [Property [{0}] of class [{1}] cannot be null]
+|   Field error in object 'com.hrms.Emp' on field 'name': rejected value [null]; codes [com.hrms.Emp.name.nullable.error.com.hrms.Emp.name,com.hrms.Emp.name.nullable.error.name,com.hrms.Emp.name.nullable.error.java.lang.String,com.hrms.Emp.name.nullable.error,emp.name.nullable.error.com.hrms.Emp.name,emp.name.nullable.error.name,emp.name.nullable.error.java.lang.String,emp.name.nullable.error,com.hrms.Emp.name.nullable.com.hrms.Emp.name,com.hrms.Emp.name.nullable.name,com.hrms.Emp.name.nullable.java.lang.String,com.hrms.Emp.name.nullable,emp.name.nullable.com.hrms.Emp.name,emp.name.nullable.name,emp.name.nullable.java.lang.String,emp.name.nullable,nullable.com.hrms.Emp.name,nullable.name,nullable.java.lang.String,nullable]; arguments [name,class com.hrms.Emp]; default message [Property [{0}] of class [{1}] cannot be null]
+|   Field error in object 'com.hrms.Emp' on field 'aname': rejected value [null]; codes [com.hrms.Emp.aname.nullable.error.com.hrms.Emp.aname,com.hrms.Emp.aname.nullable.error.aname,com.hrms.Emp.aname.nullable.error.java.lang.String,com.hrms.Emp.aname.nullable.error,emp.aname.nullable.error.com.hrms.Emp.aname,emp.aname.nullable.error.aname,emp.aname.nullable.error.java.lang.String,emp.aname.nullable.error,com.hrms.Emp.aname.nullable.com.hrms.Emp.aname,com.hrms.Emp.aname.nullable.aname,com.hrms.Emp.aname.nullable.java.lang.String,com.hrms.Emp.aname.nullable,emp.aname.nullable.com.hrms.Emp.aname,emp.aname.nullable.aname,emp.aname.nullable.java.lang.String,emp.aname.nullable,nullable.com.hrms.Emp.aname,nullable.aname,nullable.java.lang.String,nullable]; arguments [aname,class com.hrms.Emp]; default message [Property [{0}] of class [{1}] cannot be null]
+com.hrms.Emp : (unsaved)
+
+	at com.hrms.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:34)
+	at com.hrms.EmpSpec.test emp all constraints(EmpSpec.groovy:27)
+2014-08-07 13:23:27,067 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+obj.errors[field]
+|   |     ||
+|   |     |ename
+|   |     null
+|   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 3 errors
+|   Field error in object 'com.hrms.Emp' on field 'num': rejected value [null]; codes [com.hrms.Emp.num.nullable.error.com.hrms.Emp.num,com.hrms.Emp.num.nullable.error.num,com.hrms.Emp.num.nullable.error.java.lang.String,com.hrms.Emp.num.nullable.error,emp.num.nullable.error.com.hrms.Emp.num,emp.num.nullable.error.num,emp.num.nullable.error.java.lang.String,emp.num.nullable.error,com.hrms.Emp.num.nullable.com.hrms.Emp.num,com.hrms.Emp.num.nullable.num,com.hrms.Emp.num.nullable.java.lang.String,com.hrms.Emp.num.nullable,emp.num.nullable.com.hrms.Emp.num,emp.num.nullable.num,emp.num.nullable.java.lang.String,emp.num.nullable,nullable.com.hrms.Emp.num,nullable.num,nullable.java.lang.String,nullable]; arguments [num,class com.hrms.Emp]; default message [Property [{0}] of class [{1}] cannot be null]
+|   Field error in object 'com.hrms.Emp' on field 'name': rejected value [null]; codes [com.hrms.Emp.name.nullable.error.com.hrms.Emp.name,com.hrms.Emp.name.nullable.error.name,com.hrms.Emp.name.nullable.error.java.lang.String,com.hrms.Emp.name.nullable.error,emp.name.nullable.error.com.hrms.Emp.name,emp.name.nullable.error.name,emp.name.nullable.error.java.lang.String,emp.name.nullable.error,com.hrms.Emp.name.nullable.com.hrms.Emp.name,com.hrms.Emp.name.nullable.name,com.hrms.Emp.name.nullable.java.lang.String,com.hrms.Emp.name.nullable,emp.name.nullable.com.hrms.Emp.name,emp.name.nullable.name,emp.name.nullable.java.lang.String,emp.name.nullable,nullable.com.hrms.Emp.name,nullable.name,nullable.java.lang.String,nullable]; arguments [name,class com.hrms.Emp]; default message [Property [{0}] of class [{1}] cannot be null]
+|   Field error in object 'com.hrms.Emp' on field 'aname': rejected value [null]; codes [com.hrms.Emp.aname.nullable.error.com.hrms.Emp.aname,com.hrms.Emp.aname.nullable.error.aname,com.hrms.Emp.aname.nullable.error.java.lang.String,com.hrms.Emp.aname.nullable.error,emp.aname.nullable.error.com.hrms.Emp.aname,emp.aname.nullable.error.aname,emp.aname.nullable.error.java.lang.String,emp.aname.nullable.error,com.hrms.Emp.aname.nullable.com.hrms.Emp.aname,com.hrms.Emp.aname.nullable.aname,com.hrms.Emp.aname.nullable.java.lang.String,com.hrms.Emp.aname.nullable,emp.aname.nullable.com.hrms.Emp.aname,emp.aname.nullable.aname,emp.aname.nullable.java.lang.String,emp.aname.nullable,nullable.com.hrms.Emp.aname,nullable.aname,nullable.java.lang.String,nullable]; arguments [aname,class com.hrms.Emp]; default message [Property [{0}] of class [{1}] cannot be null]
+com.hrms.Emp : (unsaved)
+
+	at com.hrms.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:34)
+	at com.hrms.EmpSpec.test emp all constraints(EmpSpec.groovy:27)
+2014-08-07 13:23:27,080 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+obj.errors[field]
+|   |     ||
+|   |     |ename
+|   |     null
+|   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 3 errors
+|   Field error in object 'com.hrms.Emp' on field 'num': rejected value [null]; codes [com.hrms.Emp.num.nullable.error.com.hrms.Emp.num,com.hrms.Emp.num.nullable.error.num,com.hrms.Emp.num.nullable.error.java.lang.String,com.hrms.Emp.num.nullable.error,emp.num.nullable.error.com.hrms.Emp.num,emp.num.nullable.error.num,emp.num.nullable.error.java.lang.String,emp.num.nullable.error,com.hrms.Emp.num.nullable.com.hrms.Emp.num,com.hrms.Emp.num.nullable.num,com.hrms.Emp.num.nullable.java.lang.String,com.hrms.Emp.num.nullable,emp.num.nullable.com.hrms.Emp.num,emp.num.nullable.num,emp.num.nullable.java.lang.String,emp.num.nullable,nullable.com.hrms.Emp.num,nullable.num,nullable.java.lang.String,nullable]; arguments [num,class com.hrms.Emp]; default message [Property [{0}] of class [{1}] cannot be null]
+|   Field error in object 'com.hrms.Emp' on field 'name': rejected value [null]; codes [com.hrms.Emp.name.nullable.error.com.hrms.Emp.name,com.hrms.Emp.name.nullable.error.name,com.hrms.Emp.name.nullable.error.java.lang.String,com.hrms.Emp.name.nullable.error,emp.name.nullable.error.com.hrms.Emp.name,emp.name.nullable.error.name,emp.name.nullable.error.java.lang.String,emp.name.nullable.error,com.hrms.Emp.name.nullable.com.hrms.Emp.name,com.hrms.Emp.name.nullable.name,com.hrms.Emp.name.nullable.java.lang.String,com.hrms.Emp.name.nullable,emp.name.nullable.com.hrms.Emp.name,emp.name.nullable.name,emp.name.nullable.java.lang.String,emp.name.nullable,nullable.com.hrms.Emp.name,nullable.name,nullable.java.lang.String,nullable]; arguments [name,class com.hrms.Emp]; default message [Property [{0}] of class [{1}] cannot be null]
+|   Field error in object 'com.hrms.Emp' on field 'aname': rejected value [null]; codes [com.hrms.Emp.aname.nullable.error.com.hrms.Emp.aname,com.hrms.Emp.aname.nullable.error.aname,com.hrms.Emp.aname.nullable.error.java.lang.String,com.hrms.Emp.aname.nullable.error,emp.aname.nullable.error.com.hrms.Emp.aname,emp.aname.nullable.error.aname,emp.aname.nullable.error.java.lang.String,emp.aname.nullable.error,com.hrms.Emp.aname.nullable.com.hrms.Emp.aname,com.hrms.Emp.aname.nullable.aname,com.hrms.Emp.aname.nullable.java.lang.String,com.hrms.Emp.aname.nullable,emp.aname.nullable.com.hrms.Emp.aname,emp.aname.nullable.aname,emp.aname.nullable.java.lang.String,emp.aname.nullable,nullable.com.hrms.Emp.aname,nullable.aname,nullable.java.lang.String,nullable]; arguments [aname,class com.hrms.Emp]; default message [Property [{0}] of class [{1}] cannot be null]
+com.hrms.Emp : (unsaved)
+
+	at com.hrms.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:34)
+	at com.hrms.EmpSpec.test emp all constraints(EmpSpec.groovy:27)
+2014-08-07 13:23:27,080 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+obj.errors[field]
+|   |     ||
+|   |     |ename
+|   |     null
+|   org.codehaus.groovy.grails.plugins.testing.GrailsMockErrors: 3 errors
+|   Field error in object 'com.hrms.Emp' on field 'num': rejected value [null]; codes [com.hrms.Emp.num.nullable.error.com.hrms.Emp.num,com.hrms.Emp.num.nullable.error.num,com.hrms.Emp.num.nullable.error.java.lang.String,com.hrms.Emp.num.nullable.error,emp.num.nullable.error.com.hrms.Emp.num,emp.num.nullable.error.num,emp.num.nullable.error.java.lang.String,emp.num.nullable.error,com.hrms.Emp.num.nullable.com.hrms.Emp.num,com.hrms.Emp.num.nullable.num,com.hrms.Emp.num.nullable.java.lang.String,com.hrms.Emp.num.nullable,emp.num.nullable.com.hrms.Emp.num,emp.num.nullable.num,emp.num.nullable.java.lang.String,emp.num.nullable,nullable.com.hrms.Emp.num,nullable.num,nullable.java.lang.String,nullable]; arguments [num,class com.hrms.Emp]; default message [Property [{0}] of class [{1}] cannot be null]
+|   Field error in object 'com.hrms.Emp' on field 'name': rejected value [null]; codes [com.hrms.Emp.name.nullable.error.com.hrms.Emp.name,com.hrms.Emp.name.nullable.error.name,com.hrms.Emp.name.nullable.error.java.lang.String,com.hrms.Emp.name.nullable.error,emp.name.nullable.error.com.hrms.Emp.name,emp.name.nullable.error.name,emp.name.nullable.error.java.lang.String,emp.name.nullable.error,com.hrms.Emp.name.nullable.com.hrms.Emp.name,com.hrms.Emp.name.nullable.name,com.hrms.Emp.name.nullable.java.lang.String,com.hrms.Emp.name.nullable,emp.name.nullable.com.hrms.Emp.name,emp.name.nullable.name,emp.name.nullable.java.lang.String,emp.name.nullable,nullable.com.hrms.Emp.name,nullable.name,nullable.java.lang.String,nullable]; arguments [name,class com.hrms.Emp]; default message [Property [{0}] of class [{1}] cannot be null]
+|   Field error in object 'com.hrms.Emp' on field 'aname': rejected value [null]; codes [com.hrms.Emp.aname.nullable.error.com.hrms.Emp.aname,com.hrms.Emp.aname.nullable.error.aname,com.hrms.Emp.aname.nullable.error.java.lang.String,com.hrms.Emp.aname.nullable.error,emp.aname.nullable.error.com.hrms.Emp.aname,emp.aname.nullable.error.aname,emp.aname.nullable.error.java.lang.String,emp.aname.nullable.error,com.hrms.Emp.aname.nullable.com.hrms.Emp.aname,com.hrms.Emp.aname.nullable.aname,com.hrms.Emp.aname.nullable.java.lang.String,com.hrms.Emp.aname.nullable,emp.aname.nullable.com.hrms.Emp.aname,emp.aname.nullable.aname,emp.aname.nullable.java.lang.String,emp.aname.nullable,nullable.com.hrms.Emp.aname,nullable.aname,nullable.java.lang.String,nullable]; arguments [aname,class com.hrms.Emp]; default message [Property [{0}] of class [{1}] cannot be null]
+com.hrms.Emp : (unsaved)
+
+	at com.hrms.ConstraintUnitSpec.validateConstraints(ConstraintUnitSpec.groovy:34)
+	at com.hrms.EmpSpec.test emp all constraints(EmpSpec.groovy:27)

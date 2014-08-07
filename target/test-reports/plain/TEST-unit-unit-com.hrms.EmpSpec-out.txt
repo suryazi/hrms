@@ -1,0 +1,4 @@
+--Output from test Emp all constraints num is nullable--
+--Output from test Emp all constraints num is unique--
+--Output from test Emp all constraints ename is nullable--
+--Output from test Emp all constraints aname is nullable--

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Dell" name="com.hrms.EmpSpec" tests="4" time="6.451" timestamp="2014-08-07T10:24:58">
+  <properties />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints num is nullable" time="5.562" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints num is unique" time="0.752" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints ename is nullable" time="0.039" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints aname is nullable" time="0.042" />
+  <system-out><![CDATA[--Output from test Emp all constraints num is nullable--
+--Output from test Emp all constraints num is unique--
+--Output from test Emp all constraints ename is nullable--
+--Output from test Emp all constraints aname is nullable--
+]]></system-out>
+  <system-err><![CDATA[--Output from test Emp all constraints num is nullable--
+--Output from test Emp all constraints num is unique--
+--Output from test Emp all constraints ename is nullable--
+--Output from test Emp all constraints aname is nullable--
+]]></system-err>
+</testsuite>
