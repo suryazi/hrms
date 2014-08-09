@@ -27,10 +27,41 @@ class EmpSpec extends ConstraintUnitSpec {
     	validateConstraints(obj, field, error)
 
     	where:
-    	error			| field			|val
-    	'nullable'		| 'num'			|''
-    	'unique'		| 'num'			|'123456789'
-    	'nullable'		| 'ename'		|''
-    	'nullable'		| 'aname'		|''
+    	error			|	field			|	val
+    	'nullable'		|	'num'			|	''
+    	'nullable'		|	'num'			|	null
+    	'unique'		|	'num'			|	'123456789'
+    	'valid'			|	'num'			|	'12345678'
+    	'nullable'		|	'ename'			|	''
+    	'valid'			|	'ename'			|	getLongString(50)
+    	'nullable'		|	'ename'			|	null
+    	'nullable'		|	'aname'			|	''
+    	'nullable'		|	'aname'			|	null
+    	'valid'			|	'aname'			|	getLongString(50)
+    	'max'			|	'dob'			|	new Date()+1
+    	'nullable'		|	'dob'			|	''
+    	'nullable'		|	'dob'			|	null
+    	'valid'			|	'dob'			|	new Date()
+    	'inList'		|	'gender'		|	'Unknown'
+    	'nullable'		| 	'gender'		|	''
+    	'nullable'		| 	'gender'		|	null
+    	'valid'			| 	'gender'		|	'Male'
+    	'valid'			| 	'gender'		|	'Female'
+    	'nullable'		|	'nationality'	|	''
+    	'nullable'		|	'nationality'	|	null
+    	'valid'			|	'nationality'	|	getLongString(50)
+    	'nullable'		|	'religion'		|	''
+    	'nullable'		|	'religion'		|	null
+    	'valid'			|	'religion'		|	getLongString(50)
+    	'max'			|	'doj'			|	new Date()+1
+    	'nullable'		|	'doj'			|	''
+    	'nullable'		|	'doj'			|	null
+    	'valid'			|	'doj'			|	new Date()
+    	'size'			|	'mobile'		|	getLongString(16)
+    	'valid'			|	'mobile'		|	null    	
+    	'valid'			|	'mobile'		|	'009661234567890'
+    	'notEqual'		|	'email'			|	'bill@microsoft.com'
+    	'email'			|	'email'			|	getEmail(false)
+    	'valid'			|	'email'			|	null
     }
 }

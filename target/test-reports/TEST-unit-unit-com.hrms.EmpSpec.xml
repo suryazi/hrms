@@ -1,18 +1,111 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Dell" name="com.hrms.EmpSpec" tests="4" time="6.831" timestamp="2014-08-07T11:36:28">
+<testsuite errors="0" failures="0" hostname="Dell" name="com.hrms.EmpSpec" tests="35" time="7.498" timestamp="2014-08-09T14:54:05">
   <properties />
-  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints num is nullable" time="5.164" />
-  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints num is unique" time="1.279" />
-  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints ename is nullable" time="0.042" />
-  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints aname is nullable" time="0.05" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints num is nullable" time="4.691" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints num is nullable" time="0.189" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints num is unique" time="1.306" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints num is valid" time="0.056" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints ename is nullable" time="0.049" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints ename is valid" time="0.05" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints ename is nullable" time="0.052" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints aname is nullable" time="0.056" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints aname is nullable" time="0.047" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints aname is valid" time="0.045" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints dob is max" time="0.053" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints dob is nullable" time="0.052" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints dob is nullable" time="0.051" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints dob is valid" time="0.051" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints gender is inList" time="0.054" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints gender is nullable" time="0.079" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints gender is nullable" time="0.061" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints gender is valid" time="0.049" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints gender is valid" time="0.045" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints nationality is nullable" time="0.042" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints nationality is nullable" time="0.034" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints nationality is valid" time="0.029" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints religion is nullable" time="0.027" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints religion is nullable" time="0.025" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints religion is valid" time="0.026" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints doj is max" time="0.026" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints doj is nullable" time="0.025" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints doj is nullable" time="0.026" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints doj is valid" time="0.022" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints mobile is size" time="0.021" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints mobile is valid" time="0.019" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints mobile is valid" time="0.018" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints email is notEqual" time="0.027" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints email is email" time="0.02" />
+  <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints email is valid" time="0.021" />
   <system-out><![CDATA[--Output from test Emp all constraints num is nullable--
+--Output from test Emp all constraints num is nullable--
 --Output from test Emp all constraints num is unique--
+--Output from test Emp all constraints num is valid--
+--Output from test Emp all constraints ename is nullable--
+--Output from test Emp all constraints ename is valid--
 --Output from test Emp all constraints ename is nullable--
 --Output from test Emp all constraints aname is nullable--
+--Output from test Emp all constraints aname is nullable--
+--Output from test Emp all constraints aname is valid--
+--Output from test Emp all constraints dob is max--
+--Output from test Emp all constraints dob is nullable--
+--Output from test Emp all constraints dob is nullable--
+--Output from test Emp all constraints dob is valid--
+--Output from test Emp all constraints gender is inList--
+--Output from test Emp all constraints gender is nullable--
+--Output from test Emp all constraints gender is nullable--
+--Output from test Emp all constraints gender is valid--
+--Output from test Emp all constraints gender is valid--
+--Output from test Emp all constraints nationality is nullable--
+--Output from test Emp all constraints nationality is nullable--
+--Output from test Emp all constraints nationality is valid--
+--Output from test Emp all constraints religion is nullable--
+--Output from test Emp all constraints religion is nullable--
+--Output from test Emp all constraints religion is valid--
+--Output from test Emp all constraints doj is max--
+--Output from test Emp all constraints doj is nullable--
+--Output from test Emp all constraints doj is nullable--
+--Output from test Emp all constraints doj is valid--
+--Output from test Emp all constraints mobile is size--
+--Output from test Emp all constraints mobile is valid--
+--Output from test Emp all constraints mobile is valid--
+--Output from test Emp all constraints email is notEqual--
+--Output from test Emp all constraints email is email--
+--Output from test Emp all constraints email is valid--
 ]]></system-out>
   <system-err><![CDATA[--Output from test Emp all constraints num is nullable--
+--Output from test Emp all constraints num is nullable--
 --Output from test Emp all constraints num is unique--
+--Output from test Emp all constraints num is valid--
+--Output from test Emp all constraints ename is nullable--
+--Output from test Emp all constraints ename is valid--
 --Output from test Emp all constraints ename is nullable--
 --Output from test Emp all constraints aname is nullable--
+--Output from test Emp all constraints aname is nullable--
+--Output from test Emp all constraints aname is valid--
+--Output from test Emp all constraints dob is max--
+--Output from test Emp all constraints dob is nullable--
+--Output from test Emp all constraints dob is nullable--
+--Output from test Emp all constraints dob is valid--
+--Output from test Emp all constraints gender is inList--
+--Output from test Emp all constraints gender is nullable--
+--Output from test Emp all constraints gender is nullable--
+--Output from test Emp all constraints gender is valid--
+--Output from test Emp all constraints gender is valid--
+--Output from test Emp all constraints nationality is nullable--
+--Output from test Emp all constraints nationality is nullable--
+--Output from test Emp all constraints nationality is valid--
+--Output from test Emp all constraints religion is nullable--
+--Output from test Emp all constraints religion is nullable--
+--Output from test Emp all constraints religion is valid--
+--Output from test Emp all constraints doj is max--
+--Output from test Emp all constraints doj is nullable--
+--Output from test Emp all constraints doj is nullable--
+--Output from test Emp all constraints doj is valid--
+--Output from test Emp all constraints mobile is size--
+--Output from test Emp all constraints mobile is valid--
+--Output from test Emp all constraints mobile is valid--
+--Output from test Emp all constraints email is notEqual--
+--Output from test Emp all constraints email is email--
+--Output from test Emp all constraints email is valid--
 ]]></system-err>
 </testsuite>

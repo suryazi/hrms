@@ -1,19 +1,112 @@
 Testsuite: com.hrms.EmpSpec
-Tests run: 4, Failures: 0, Errors: 0, Time elapsed: 6.831 sec
+Tests run: 35, Failures: 0, Errors: 0, Time elapsed: 7.498 sec
 ------------- Standard Output ---------------
 --Output from test Emp all constraints num is nullable--
+--Output from test Emp all constraints num is nullable--
 --Output from test Emp all constraints num is unique--
+--Output from test Emp all constraints num is valid--
+--Output from test Emp all constraints ename is nullable--
+--Output from test Emp all constraints ename is valid--
 --Output from test Emp all constraints ename is nullable--
 --Output from test Emp all constraints aname is nullable--
+--Output from test Emp all constraints aname is nullable--
+--Output from test Emp all constraints aname is valid--
+--Output from test Emp all constraints dob is max--
+--Output from test Emp all constraints dob is nullable--
+--Output from test Emp all constraints dob is nullable--
+--Output from test Emp all constraints dob is valid--
+--Output from test Emp all constraints gender is inList--
+--Output from test Emp all constraints gender is nullable--
+--Output from test Emp all constraints gender is nullable--
+--Output from test Emp all constraints gender is valid--
+--Output from test Emp all constraints gender is valid--
+--Output from test Emp all constraints nationality is nullable--
+--Output from test Emp all constraints nationality is nullable--
+--Output from test Emp all constraints nationality is valid--
+--Output from test Emp all constraints religion is nullable--
+--Output from test Emp all constraints religion is nullable--
+--Output from test Emp all constraints religion is valid--
+--Output from test Emp all constraints doj is max--
+--Output from test Emp all constraints doj is nullable--
+--Output from test Emp all constraints doj is nullable--
+--Output from test Emp all constraints doj is valid--
+--Output from test Emp all constraints mobile is size--
+--Output from test Emp all constraints mobile is valid--
+--Output from test Emp all constraints mobile is valid--
+--Output from test Emp all constraints email is notEqual--
+--Output from test Emp all constraints email is email--
+--Output from test Emp all constraints email is valid--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
 --Output from test Emp all constraints num is nullable--
+--Output from test Emp all constraints num is nullable--
 --Output from test Emp all constraints num is unique--
+--Output from test Emp all constraints num is valid--
+--Output from test Emp all constraints ename is nullable--
+--Output from test Emp all constraints ename is valid--
 --Output from test Emp all constraints ename is nullable--
 --Output from test Emp all constraints aname is nullable--
+--Output from test Emp all constraints aname is nullable--
+--Output from test Emp all constraints aname is valid--
+--Output from test Emp all constraints dob is max--
+--Output from test Emp all constraints dob is nullable--
+--Output from test Emp all constraints dob is nullable--
+--Output from test Emp all constraints dob is valid--
+--Output from test Emp all constraints gender is inList--
+--Output from test Emp all constraints gender is nullable--
+--Output from test Emp all constraints gender is nullable--
+--Output from test Emp all constraints gender is valid--
+--Output from test Emp all constraints gender is valid--
+--Output from test Emp all constraints nationality is nullable--
+--Output from test Emp all constraints nationality is nullable--
+--Output from test Emp all constraints nationality is valid--
+--Output from test Emp all constraints religion is nullable--
+--Output from test Emp all constraints religion is nullable--
+--Output from test Emp all constraints religion is valid--
+--Output from test Emp all constraints doj is max--
+--Output from test Emp all constraints doj is nullable--
+--Output from test Emp all constraints doj is nullable--
+--Output from test Emp all constraints doj is valid--
+--Output from test Emp all constraints mobile is size--
+--Output from test Emp all constraints mobile is valid--
+--Output from test Emp all constraints mobile is valid--
+--Output from test Emp all constraints email is notEqual--
+--Output from test Emp all constraints email is email--
+--Output from test Emp all constraints email is valid--
 ------------- ---------------- ---------------
 
-Testcase: test Emp all constraints num is nullable took 5.164 sec
-Testcase: test Emp all constraints num is unique took 1.279 sec
-Testcase: test Emp all constraints ename is nullable took 0.042 sec
-Testcase: test Emp all constraints aname is nullable took 0.05 sec
+Testcase: test Emp all constraints num is nullable took 4.691 sec
+Testcase: test Emp all constraints num is nullable took 0.189 sec
+Testcase: test Emp all constraints num is unique took 1.306 sec
+Testcase: test Emp all constraints num is valid took 0.057 sec
+Testcase: test Emp all constraints ename is nullable took 0.049 sec
+Testcase: test Emp all constraints ename is valid took 0.05 sec
+Testcase: test Emp all constraints ename is nullable took 0.052 sec
+Testcase: test Emp all constraints aname is nullable took 0.056 sec
+Testcase: test Emp all constraints aname is nullable took 0.047 sec
+Testcase: test Emp all constraints aname is valid took 0.045 sec
+Testcase: test Emp all constraints dob is max took 0.053 sec
+Testcase: test Emp all constraints dob is nullable took 0.052 sec
+Testcase: test Emp all constraints dob is nullable took 0.051 sec
+Testcase: test Emp all constraints dob is valid took 0.051 sec
+Testcase: test Emp all constraints gender is inList took 0.054 sec
+Testcase: test Emp all constraints gender is nullable took 0.079 sec
+Testcase: test Emp all constraints gender is nullable took 0.061 sec
+Testcase: test Emp all constraints gender is valid took 0.05 sec
+Testcase: test Emp all constraints gender is valid took 0.045 sec
+Testcase: test Emp all constraints nationality is nullable took 0.042 sec
+Testcase: test Emp all constraints nationality is nullable took 0.034 sec
+Testcase: test Emp all constraints nationality is valid took 0.03 sec
+Testcase: test Emp all constraints religion is nullable took 0.027 sec
+Testcase: test Emp all constraints religion is nullable took 0.025 sec
+Testcase: test Emp all constraints religion is valid took 0.026 sec
+Testcase: test Emp all constraints doj is max took 0.026 sec
+Testcase: test Emp all constraints doj is nullable took 0.026 sec
+Testcase: test Emp all constraints doj is nullable took 0.026 sec
+Testcase: test Emp all constraints doj is valid took 0.022 sec
+Testcase: test Emp all constraints mobile is size took 0.021 sec
+Testcase: test Emp all constraints mobile is valid took 0.019 sec
+Testcase: test Emp all constraints mobile is valid took 0.018 sec
+Testcase: test Emp all constraints email is notEqual took 0.027 sec
+Testcase: test Emp all constraints email is email took 0.02 sec
+Testcase: test Emp all constraints email is valid took 0.021 sec
