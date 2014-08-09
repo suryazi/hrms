@@ -1,5 +1,8 @@
 package com.hrms
 
+import groovy.transform.EqualsAndHashCode
+
+@EqualsAndHashCode
 class Emp {
 
 	String num
@@ -30,7 +33,7 @@ class Emp {
     	"${num} - ${ename}"
     }
 
-    @Override
+    /*@Override
     public final boolean equals(final Object o){
     	return o==this;
     }
@@ -38,5 +41,5 @@ class Emp {
     @Override
     public final int hashCode(){
     	return System.identityHashCode(this);
-    }
+    }*/
 }
