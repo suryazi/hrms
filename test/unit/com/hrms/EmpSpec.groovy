@@ -64,4 +64,18 @@ class EmpSpec extends ConstraintUnitSpec {
     	'email'			|	'email'			|	getEmail(false)
     	'valid'			|	'email'			|	null
     }
+
+    @Unroll("Emp #field using #val results in #result")
+    def "test mobile constraints"(){
+        when:
+        def obj=new Emp("$field":val)
+
+        then:
+        validateResults(obj,field,result)
+
+        where:
+        result  |   field           |   val
+        false   |   'mobile'        |   getLongString(15)
+        true    |   'mobile'        |   '009661234567890'
+    }
 }

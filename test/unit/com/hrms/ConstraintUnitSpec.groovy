@@ -37,4 +37,9 @@ abstract class ConstraintUnitSpec extends Specification {
             assert !obj.errors[field]
         }
     }
+
+    void validateResults(obj, field, result){
+    	def validated = obj.validate([field])
+    	assert validated == result
+    }
 }
