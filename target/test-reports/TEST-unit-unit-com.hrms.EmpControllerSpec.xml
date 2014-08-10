@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="2" failures="1" hostname="Dell" name="com.hrms.EmpControllerSpec" tests="7" time="8.062" timestamp="2014-08-10T15:25:04">
+  <properties />
+  <testcase classname="com.hrms.EmpControllerSpec" name="Test the index action returns the correct model" time="6.635" />
+  <testcase classname="com.hrms.EmpControllerSpec" name="Test the create action returns the correct model" time="0.175" />
+  <testcase classname="com.hrms.EmpControllerSpec" name="Test the save action correctly persists an instance" time="0.876">
+    <error message="Cannot redirect for object [null - null] it is not a domain or has no identifier. Use an explicit redirect instead " type="org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException">org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [null - null] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at com.hrms.EmpController.tt__save_closure9_closure14(EmpController.groovy:43)
+	at com.hrms.EmpController.$tt__save(EmpController.groovy:40)
+	at com.hrms.EmpControllerSpec.Test the save action correctly persists an instance(EmpControllerSpec.groovy:54)
+</error>
+  </testcase>
+  <testcase classname="com.hrms.EmpControllerSpec" name="Test that the show action returns the correct model" time="0.054" />
+  <testcase classname="com.hrms.EmpControllerSpec" name="Test that the edit action returns the correct model" time="0.05" />
+  <testcase classname="com.hrms.EmpControllerSpec" name="Test the update action performs an update on a valid domain instance" time="0.104">
+    <error message="Cannot get property &apos;id&apos; on null object" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot get property &apos;id&apos; on null object
+	at com.hrms.EmpControllerSpec.Test the update action performs an update on a valid domain instance(EmpControllerSpec.groovy:122)
+</error>
+  </testcase>
+  <testcase classname="com.hrms.EmpControllerSpec" name="Test that the delete action deletes an instance if it exists" time="0.066">
+    <failure message="Condition not satisfied:&#xa;&#xa;Emp.count() == 1&#xa;    |       |&#xa;    0       false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+Emp.count() == 1
+    |       |
+    0       false
+
+	at com.hrms.EmpControllerSpec.Test that the delete action deletes an instance if it exists(EmpControllerSpec.groovy:142)
+</failure>
+  </testcase>
+  <system-out><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test the save action correctly persists an instance--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+--Output from Test the update action performs an update on a valid domain instance--
+--Output from Test that the delete action deletes an instance if it exists--
+]]></system-out>
+  <system-err><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test the save action correctly persists an instance--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+--Output from Test the update action performs an update on a valid domain instance--
+--Output from Test that the delete action deletes an instance if it exists--
+]]></system-err>
+</testsuite>

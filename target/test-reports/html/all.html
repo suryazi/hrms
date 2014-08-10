@@ -15,10 +15,15 @@
      - All tests </h1>
 <p class="intro">
                         Executed
-                        37
+                        44
                         tests
                     
-                        without a single error or failure!
+                        with
+                        2 errors
+
+                        and
+                        one failure
+                        .
                     </p>
 </div>
 <div class="grid_2 omega">
@@ -41,6 +46,157 @@
 </nav>
 </div>
 <div class="clear"></div>
+<div class="testsuite error">
+<div class="header">
+<h2>EmpControllerSpec</h2>
+<h3>
+                        Executed
+                        7
+                        tests
+                    
+                        with
+                        2 errors
+
+                        and
+                        one failure
+                        .
+                    </h3>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="Test the index action returns the correct model">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">Test the index action returns the correct model</b>
+</p>
+<p class="summary">Executed in 6.635 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="Test the create action returns the correct model">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">Test the create action returns the correct model</b>
+</p>
+<p class="summary">Executed in 0.175 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix error grid_8 alpha omega" data-name="Test the save action correctly persists an instance">
+<div class="grid_3 alpha">
+<p>
+<span class="icon error"></span><b class="testname message error">Test the save action correctly persists an instance</b>
+</p>
+<p class="summary">Executed in 0.876 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Cannot redirect for object [null - null] it is not a domain or has no identifier. Use an explicit redirect instead </b>
+</p>
+<pre>org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [null - null] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at com.hrms.EmpController.tt__save_closure9_closure14(EmpController.groovy:43)
+	at com.hrms.EmpController.$tt__save(EmpController.groovy:40)
+	at com.hrms.EmpControllerSpec.Test the save action correctly persists an instance(EmpControllerSpec.groovy:54)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="Test that the show action returns the correct model">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">Test that the show action returns the correct model</b>
+</p>
+<p class="summary">Executed in 0.054 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="Test that the edit action returns the correct model">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">Test that the edit action returns the correct model</b>
+</p>
+<p class="summary">Executed in 0.05 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix error grid_8 alpha omega" data-name="Test the update action performs an update on a valid domain instance">
+<div class="grid_3 alpha">
+<p>
+<span class="icon error"></span><b class="testname message error">Test the update action performs an update on a valid domain instance</b>
+</p>
+<p class="summary">Executed in 0.104 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Cannot get property 'id' on null object</b>
+</p>
+<pre>java.lang.NullPointerException: Cannot get property 'id' on null object
+	at com.hrms.EmpControllerSpec.Test the update action performs an update on a valid domain instance(EmpControllerSpec.groovy:122)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="Test that the delete action deletes an instance if it exists">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">Test that the delete action deletes an instance if it exists</b>
+</p>
+<p class="summary">Executed in 0.066 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Condition not satisfied:
+
+Emp.count() == 1
+    |       |
+    0       false
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Condition not satisfied:
+
+Emp.count() == 1
+    |       |
+    0       false
+
+	at com.hrms.EmpControllerSpec.Test that the delete action deletes an instance if it exists(EmpControllerSpec.groovy:142)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clearfix output footer">
+<div class="sysout">
+<h2>Standard output</h2>
+<pre class="stdout">--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test the save action correctly persists an instance--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+--Output from Test the update action performs an update on a valid domain instance--
+--Output from Test that the delete action deletes an instance if it exists--
+</pre>
+</div>
+<div class="syserr">
+<h2>System error</h2>
+<pre class="syserr">--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test the save action correctly persists an instance--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+--Output from Test the update action performs an update on a valid domain instance--
+--Output from Test that the delete action deletes an instance if it exists--
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
 <div class="testsuite success">
 <div class="header">
 <h2>EmpSpec</h2>
@@ -57,7 +213,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Emp all constraints num is nullable</b>
 </p>
-<p class="summary">Executed in 4.948 seconds.</p>
+<p class="summary">Executed in 0.269 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -67,7 +223,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Emp all constraints num is nullable</b>
 </p>
-<p class="summary">Executed in 0.086 seconds.</p>
+<p class="summary">Executed in 0.026 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -77,7 +233,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Emp all constraints num is unique</b>
 </p>
-<p class="summary">Executed in 0.989 seconds.</p>
+<p class="summary">Executed in 0.126 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -87,7 +243,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Emp all constraints num is valid</b>
 </p>
-<p class="summary">Executed in 0.046 seconds.</p>
+<p class="summary">Executed in 0.028 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -97,7 +253,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Emp all constraints ename is nullable</b>
 </p>
-<p class="summary">Executed in 0.063 seconds.</p>
+<p class="summary">Executed in 0.022 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -107,7 +263,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Emp all constraints ename is valid</b>
 </p>
-<p class="summary">Executed in 0.048 seconds.</p>
+<p class="summary">Executed in 0.022 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -117,7 +273,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Emp all constraints ename is nullable</b>
 </p>
-<p class="summary">Executed in 0.043 seconds.</p>
+<p class="summary">Executed in 0.026 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -127,7 +283,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Emp all constraints aname is nullable</b>
 </p>
-<p class="summary">Executed in 0.071 seconds.</p>
+<p class="summary">Executed in 0.024 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -137,7 +293,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Emp all constraints aname is nullable</b>
 </p>
-<p class="summary">Executed in 0.044 seconds.</p>
+<p class="summary">Executed in 0.033 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -147,7 +303,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Emp all constraints aname is valid</b>
 </p>
-<p class="summary">Executed in 0.088 seconds.</p>
+<p class="summary">Executed in 0.03 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -157,7 +313,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Emp all constraints dob is max</b>
 </p>
-<p class="summary">Executed in 0.064 seconds.</p>
+<p class="summary">Executed in 0.024 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -167,7 +323,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Emp all constraints dob is nullable</b>
 </p>
-<p class="summary">Executed in 0.049 seconds.</p>
+<p class="summary">Executed in 0.023 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -177,7 +333,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Emp all constraints dob is nullable</b>
 </p>
-<p class="summary">Executed in 0.039 seconds.</p>
+<p class="summary">Executed in 0.022 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -187,7 +343,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Emp all constraints dob is valid</b>
 </p>
-<p class="summary">Executed in 0.036 seconds.</p>
+<p class="summary">Executed in 0.023 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -197,7 +353,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Emp all constraints gender is inList</b>
 </p>
-<p class="summary">Executed in 0.04 seconds.</p>
+<p class="summary">Executed in 0.024 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -207,7 +363,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Emp all constraints gender is nullable</b>
 </p>
-<p class="summary">Executed in 0.059 seconds.</p>
+<p class="summary">Executed in 0.03 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -217,7 +373,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Emp all constraints gender is nullable</b>
 </p>
-<p class="summary">Executed in 0.057 seconds.</p>
+<p class="summary">Executed in 0.026 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -227,7 +383,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Emp all constraints gender is valid</b>
 </p>
-<p class="summary">Executed in 0.045 seconds.</p>
+<p class="summary">Executed in 0.028 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -237,7 +393,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Emp all constraints gender is valid</b>
 </p>
-<p class="summary">Executed in 0.043 seconds.</p>
+<p class="summary">Executed in 0.026 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -247,7 +403,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Emp all constraints nationality is nullable</b>
 </p>
-<p class="summary">Executed in 0.041 seconds.</p>
+<p class="summary">Executed in 0.027 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -257,7 +413,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Emp all constraints nationality is nullable</b>
 </p>
-<p class="summary">Executed in 0.037 seconds.</p>
+<p class="summary">Executed in 0.025 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -267,7 +423,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Emp all constraints nationality is valid</b>
 </p>
-<p class="summary">Executed in 0.047 seconds.</p>
+<p class="summary">Executed in 0.026 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -277,7 +433,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Emp all constraints religion is nullable</b>
 </p>
-<p class="summary">Executed in 0.027 seconds.</p>
+<p class="summary">Executed in 0.026 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -307,16 +463,6 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Emp all constraints doj is max</b>
 </p>
-<p class="summary">Executed in 0.028 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="test Emp all constraints doj is nullable">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">test Emp all constraints doj is nullable</b>
-</p>
 <p class="summary">Executed in 0.027 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
@@ -328,6 +474,16 @@
 <span class="icon success"></span><b class="testname message success">test Emp all constraints doj is nullable</b>
 </p>
 <p class="summary">Executed in 0.026 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="test Emp all constraints doj is nullable">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">test Emp all constraints doj is nullable</b>
+</p>
+<p class="summary">Executed in 0.025 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -347,16 +503,6 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Emp all constraints mobile is size</b>
 </p>
-<p class="summary">Executed in 0.026 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix success grid_8 alpha omega" data-name="test Emp all constraints mobile is valid">
-<div class="grid_3 alpha">
-<p>
-<span class="icon success"></span><b class="testname message success">test Emp all constraints mobile is valid</b>
-</p>
 <p class="summary">Executed in 0.025 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
@@ -367,7 +513,17 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Emp all constraints mobile is valid</b>
 </p>
-<p class="summary">Executed in 0.026 seconds.</p>
+<p class="summary">Executed in 0.036 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="test Emp all constraints mobile is valid">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">test Emp all constraints mobile is valid</b>
+</p>
+<p class="summary">Executed in 0.023 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -377,7 +533,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Emp all constraints email is notEqual</b>
 </p>
-<p class="summary">Executed in 0.029 seconds.</p>
+<p class="summary">Executed in 0.028 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -387,7 +543,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Emp all constraints email is email</b>
 </p>
-<p class="summary">Executed in 0.065 seconds.</p>
+<p class="summary">Executed in 0.023 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -397,7 +553,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">test Emp all constraints email is valid</b>
 </p>
-<p class="summary">Executed in 0.022 seconds.</p>
+<p class="summary">Executed in 0.024 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -407,7 +563,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">Emp mobile using aaaaaaaaaaaaaaa results in false</b>
 </p>
-<p class="summary">Executed in 0.027 seconds.</p>
+<p class="summary">Executed in 0.024 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -417,7 +573,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">Emp mobile using 009661234567890 results in true</b>
 </p>
-<p class="summary">Executed in 0.023 seconds.</p>
+<p class="summary">Executed in 0.022 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
