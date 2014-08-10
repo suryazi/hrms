@@ -3,6 +3,7 @@ http://grails.org/doc/latest/guide/testing.html
 http://grails101.wordpress.com/2012/04/22/test-grails-application-with-spock/
 http://www.christianoestreich.com/2012/11/domain-constraints-grails-spock-updated/
 https://github.com/pschneider-manzell/grails-spock-examples
+http://ilikeorangutans.github.io/2014/02/06/grails-2-testing-guide/
 
 http://www.34m0.com/2012/11/getting-started-with-grails-functional.html
 http://www.infoq.com/presentations/testing-spock-geb
