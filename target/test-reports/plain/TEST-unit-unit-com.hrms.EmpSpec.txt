@@ -1,5 +1,5 @@
 Testsuite: com.hrms.EmpSpec
-Tests run: 37, Failures: 0, Errors: 0, Time elapsed: 1.324 sec
+Tests run: 37, Failures: 0, Errors: 0, Time elapsed: 2.363 sec
 ------------- Standard Output ---------------
 --Output from test Emp all constraints num is nullable--
 --Output from test Emp all constraints num is nullable--
@@ -79,40 +79,40 @@ Tests run: 37, Failures: 0, Errors: 0, Time elapsed: 1.324 sec
 --Output from Emp mobile using 009661234567890 results in true--
 ------------- ---------------- ---------------
 
-Testcase: test Emp all constraints num is nullable took 0.269 sec
-Testcase: test Emp all constraints num is nullable took 0.026 sec
-Testcase: test Emp all constraints num is unique took 0.126 sec
-Testcase: test Emp all constraints num is valid took 0.028 sec
-Testcase: test Emp all constraints ename is nullable took 0.022 sec
-Testcase: test Emp all constraints ename is valid took 0.022 sec
-Testcase: test Emp all constraints ename is nullable took 0.026 sec
-Testcase: test Emp all constraints aname is nullable took 0.024 sec
-Testcase: test Emp all constraints aname is nullable took 0.033 sec
-Testcase: test Emp all constraints aname is valid took 0.03 sec
-Testcase: test Emp all constraints dob is max took 0.024 sec
-Testcase: test Emp all constraints dob is nullable took 0.023 sec
-Testcase: test Emp all constraints dob is nullable took 0.022 sec
-Testcase: test Emp all constraints dob is valid took 0.023 sec
-Testcase: test Emp all constraints gender is inList took 0.024 sec
-Testcase: test Emp all constraints gender is nullable took 0.03 sec
-Testcase: test Emp all constraints gender is nullable took 0.026 sec
-Testcase: test Emp all constraints gender is valid took 0.028 sec
-Testcase: test Emp all constraints gender is valid took 0.026 sec
-Testcase: test Emp all constraints nationality is nullable took 0.027 sec
-Testcase: test Emp all constraints nationality is nullable took 0.025 sec
-Testcase: test Emp all constraints nationality is valid took 0.026 sec
-Testcase: test Emp all constraints religion is nullable took 0.026 sec
-Testcase: test Emp all constraints religion is nullable took 0.026 sec
-Testcase: test Emp all constraints religion is valid took 0.025 sec
-Testcase: test Emp all constraints doj is max took 0.027 sec
-Testcase: test Emp all constraints doj is nullable took 0.027 sec
-Testcase: test Emp all constraints doj is nullable took 0.026 sec
-Testcase: test Emp all constraints doj is valid took 0.024 sec
-Testcase: test Emp all constraints mobile is size took 0.025 sec
-Testcase: test Emp all constraints mobile is valid took 0.036 sec
-Testcase: test Emp all constraints mobile is valid took 0.023 sec
-Testcase: test Emp all constraints email is notEqual took 0.028 sec
-Testcase: test Emp all constraints email is email took 0.023 sec
-Testcase: test Emp all constraints email is valid took 0.024 sec
-Testcase: Emp mobile using aaaaaaaaaaaaaaa results in false took 0.024 sec
-Testcase: Emp mobile using 009661234567890 results in true took 0.022 sec
+Testcase: test Emp all constraints num is nullable took 0.423 sec
+Testcase: test Emp all constraints num is nullable took 0.071 sec
+Testcase: test Emp all constraints num is unique took 0.228 sec
+Testcase: test Emp all constraints num is valid took 0.041 sec
+Testcase: test Emp all constraints ename is nullable took 0.043 sec
+Testcase: test Emp all constraints ename is valid took 0.042 sec
+Testcase: test Emp all constraints ename is nullable took 0.034 sec
+Testcase: test Emp all constraints aname is nullable took 0.055 sec
+Testcase: test Emp all constraints aname is nullable took 0.047 sec
+Testcase: test Emp all constraints aname is valid took 0.048 sec
+Testcase: test Emp all constraints dob is max took 0.042 sec
+Testcase: test Emp all constraints dob is nullable took 0.045 sec
+Testcase: test Emp all constraints dob is nullable took 0.059 sec
+Testcase: test Emp all constraints dob is valid took 0.047 sec
+Testcase: test Emp all constraints gender is inList took 0.073 sec
+Testcase: test Emp all constraints gender is nullable took 0.068 sec
+Testcase: test Emp all constraints gender is nullable took 0.048 sec
+Testcase: test Emp all constraints gender is valid took 0.03 sec
+Testcase: test Emp all constraints gender is valid took 0.048 sec
+Testcase: test Emp all constraints nationality is nullable took 0.043 sec
+Testcase: test Emp all constraints nationality is nullable took 0.029 sec
+Testcase: test Emp all constraints nationality is valid took 0.085 sec
+Testcase: test Emp all constraints religion is nullable took 0.032 sec
+Testcase: test Emp all constraints religion is nullable took 0.029 sec
+Testcase: test Emp all constraints religion is valid took 0.039 sec
+Testcase: test Emp all constraints doj is max took 0.036 sec
+Testcase: test Emp all constraints doj is nullable took 0.023 sec
+Testcase: test Emp all constraints doj is nullable took 0.049 sec
+Testcase: test Emp all constraints doj is valid took 0.032 sec
+Testcase: test Emp all constraints mobile is size took 0.117 sec
+Testcase: test Emp all constraints mobile is valid took 0.052 sec
+Testcase: test Emp all constraints mobile is valid took 0.026 sec
+Testcase: test Emp all constraints email is notEqual took 0.039 sec
+Testcase: test Emp all constraints email is email took 0.03 sec
+Testcase: test Emp all constraints email is valid took 0.027 sec
+Testcase: Emp mobile using aaaaaaaaaaaaaaa results in false took 0.044 sec
+Testcase: Emp mobile using 009661234567890 results in true took 0.066 sec
