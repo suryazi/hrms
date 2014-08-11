@@ -1,8 +1,10 @@
 package com.hrms
 
 import groovy.transform.EqualsAndHashCode
+import groovy.transform.ToString
 
 @EqualsAndHashCode
+@ToString(includeNames = true, includeFields = true, excludes = 'dateCreated,lastUpdated,metaClass')
 class Emp {
 
 	String num
@@ -15,6 +17,8 @@ class Emp {
 	Date doj
 	String mobile
 	String email
+    Date dateCreated
+    Date lastUpdated
 
     static constraints = {
     	num 		unique:true, blank:false
@@ -27,9 +31,5 @@ class Emp {
     	doj 		blank:false, max:new Date()
     	mobile		nullable:true, size:0..15, matches: "[0-9]*"
     	email		nullable:true, email:true, notEqual: "bill@microsoft.com"
-    }
-
-    String toString(){
-    	"${num} - ${ename}"
     }
 }
