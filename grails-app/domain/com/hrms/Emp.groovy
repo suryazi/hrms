@@ -32,14 +32,4 @@ class Emp {
     String toString(){
     	"${num} - ${ename}"
     }
-
-    /*@Override
-    public final boolean equals(final Object o){
-    	return o==this;
-    }
-
-    @Override
-    public final int hashCode(){
-    	return System.identityHashCode(this);
-    }*/
 }

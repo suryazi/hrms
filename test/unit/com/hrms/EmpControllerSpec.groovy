@@ -12,7 +12,14 @@ class EmpControllerSpec extends Specification {
     def populateValidParams(params) {
         assert params != null
         // TODO: Populate valid properties like...
-        //params["name"] = 'someValidName'
+        params["num"] = "1"
+        params["ename"] = "a"
+        params["aname"] = "a"
+        params["dob"] = new Date()-1
+        params["gender"] = "Male"
+        params["nationality"] = "a"
+        params["religion"] = "a"
+        params["doj"] = new Date()-1
     }
 
     void "Test the index action returns the correct model"() {
@@ -46,7 +53,7 @@ class EmpControllerSpec extends Specification {
             model.empInstance!= null
             view == 'create'
 
-        /*when:"The save action is executed with a valid instance"
+        when:"The save action is executed with a valid instance"
             response.reset()
             populateValidParams(params)
             emp = new Emp(params)
@@ -56,7 +63,7 @@ class EmpControllerSpec extends Specification {
         then:"A redirect is issued to the show action"
             response.redirectedUrl == '/emp/show/1'
             controller.flash.message != null
-            Emp.count() == 1*/
+            Emp.count() == 1
     }
 
     void "Test that the show action returns the correct model"() {
@@ -112,7 +119,7 @@ class EmpControllerSpec extends Specification {
             view == 'edit'
             model.empInstance == emp
 
-        /*when:"A valid domain instance is passed to the update action"
+        when:"A valid domain instance is passed to the update action"
             response.reset()
             populateValidParams(params)
             emp = new Emp(params).save(flush: true)
@@ -120,7 +127,7 @@ class EmpControllerSpec extends Specification {
 
         then:"A redirect is issues to the show action"
             response.redirectedUrl == "/emp/show/$emp.id"
-            flash.message != null*/
+            flash.message != null
     }
 
     void "Test that the delete action deletes an instance if it exists"() {
@@ -133,7 +140,7 @@ class EmpControllerSpec extends Specification {
             response.redirectedUrl == '/emp/index'
             flash.message != null
 
-        /*when:"A domain instance is created"
+        when:"A domain instance is created"
             response.reset()
             populateValidParams(params)
             def emp = new Emp(params).save(flush: true)
@@ -147,6 +154,6 @@ class EmpControllerSpec extends Specification {
         then:"The instance is deleted"
             Emp.count() == 0
             response.redirectedUrl == '/emp/index'
-            flash.message != null*/
+            flash.message != null
     }
 }

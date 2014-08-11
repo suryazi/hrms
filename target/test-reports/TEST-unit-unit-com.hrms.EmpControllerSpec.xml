@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Dell" name="com.hrms.EmpControllerSpec" tests="7" time="11.86" timestamp="2014-08-10T19:41:11">
+<testsuite errors="0" failures="0" hostname="Dell" name="com.hrms.EmpControllerSpec" tests="7" time="6.461" timestamp="2014-08-11T11:29:15">
   <properties />
-  <testcase classname="com.hrms.EmpControllerSpec" name="Test the index action returns the correct model" time="10.47" />
-  <testcase classname="com.hrms.EmpControllerSpec" name="Test the create action returns the correct model" time="0.181" />
-  <testcase classname="com.hrms.EmpControllerSpec" name="Test the save action correctly persists an instance" time="0.181" />
-  <testcase classname="com.hrms.EmpControllerSpec" name="Test that the show action returns the correct model" time="0.063" />
-  <testcase classname="com.hrms.EmpControllerSpec" name="Test that the edit action returns the correct model" time="0.056" />
-  <testcase classname="com.hrms.EmpControllerSpec" name="Test the update action performs an update on a valid domain instance" time="0.686" />
-  <testcase classname="com.hrms.EmpControllerSpec" name="Test that the delete action deletes an instance if it exists" time="0.113" />
+  <testcase classname="com.hrms.EmpControllerSpec" name="Test the index action returns the correct model" time="5.528" />
+  <testcase classname="com.hrms.EmpControllerSpec" name="Test the create action returns the correct model" time="0.09" />
+  <testcase classname="com.hrms.EmpControllerSpec" name="Test the save action correctly persists an instance" time="0.498" />
+  <testcase classname="com.hrms.EmpControllerSpec" name="Test that the show action returns the correct model" time="0.039" />
+  <testcase classname="com.hrms.EmpControllerSpec" name="Test that the edit action returns the correct model" time="0.054" />
+  <testcase classname="com.hrms.EmpControllerSpec" name="Test the update action performs an update on a valid domain instance" time="0.142" />
+  <testcase classname="com.hrms.EmpControllerSpec" name="Test that the delete action deletes an instance if it exists" time="0.066" />
   <system-out><![CDATA[--Output from Test the index action returns the correct model--
 --Output from Test the create action returns the correct model--
 --Output from Test the save action correctly persists an instance--
