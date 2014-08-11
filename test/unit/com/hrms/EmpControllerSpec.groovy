@@ -22,6 +22,19 @@ class EmpControllerSpec extends Specification {
         params["doj"] = new Date()-1
     }
 
+    def populateValues(emp, params){
+    	emp.num=params?.num
+        emp.ename=params?.ename
+        emp.aname=params?.aname
+        emp.dob=params?.dob
+        emp.gender=params?.gender
+        emp.nationality=params?.nationality
+        emp.religion=params?.religion
+        emp.doj=params?.doj
+        emp.mobile=params?.mobile
+        emp.email=params?.email
+    }
+
     void "Test the index action returns the correct model"() {
 
         when:"The index action is executed"
@@ -56,7 +69,8 @@ class EmpControllerSpec extends Specification {
         when:"The save action is executed with a valid instance"
             response.reset()
             populateValidParams(params)
-            emp = new Emp(params)
+            emp = new Emp()
+            populateValues(emp,params)
 
             controller.save(emp)
 
@@ -75,7 +89,8 @@ class EmpControllerSpec extends Specification {
 
         when:"A domain instance is passed to the show action"
             populateValidParams(params)
-            def emp = new Emp(params)
+            def emp = new Emp()
+            populateValues(emp,params)
             controller.show(emp)
 
         then:"A model is populated containing the domain instance"
@@ -91,7 +106,8 @@ class EmpControllerSpec extends Specification {
 
         when:"A domain instance is passed to the edit action"
             populateValidParams(params)
-            def emp = new Emp(params)
+            def emp = new Emp()
+            populateValues(emp,params)
             controller.edit(emp)
 
         then:"A model is populated containing the domain instance"
@@ -122,7 +138,9 @@ class EmpControllerSpec extends Specification {
         when:"A valid domain instance is passed to the update action"
             response.reset()
             populateValidParams(params)
-            emp = new Emp(params).save(flush: true)
+            emp = new Emp()
+            populateValues(emp,params)
+            emp.save(flush: true)
             controller.update(emp)
 
         then:"A redirect is issues to the show action"
@@ -143,7 +161,9 @@ class EmpControllerSpec extends Specification {
         when:"A domain instance is created"
             response.reset()
             populateValidParams(params)
-            def emp = new Emp(params).save(flush: true)
+            def emp = new Emp()
+            populateValues(emp,params)
+            emp.save(flush: true)
 
         then:"It exists"
             Emp.count() == 1

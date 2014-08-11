@@ -20,7 +20,18 @@ class EmpController {
     }
 
     def create() {
-        respond new Emp(params)
+        def emp = new Emp()
+        emp.num=params?.num
+        emp.ename=params?.ename
+        emp.aname=params?.aname
+        emp.dob=params?.dob
+        emp.gender=params?.gender
+        emp.nationality=params?.nationality
+        emp.religion=params?.religion
+        emp.doj=params?.doj
+        emp.mobile=params?.mobile
+        emp.email=params?.email
+        respond emp
     }
 
     @Transactional
