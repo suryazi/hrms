@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="Dell" id="0" name="EmpControllerSpec" package="com.hrms" tests="7" time="11.353" timestamp="2014-08-11T14:32:41">
+  <testsuite errors="0" failures="0" hostname="Dell" id="0" name="EmpControllerSpec" package="com.hrms" tests="7" time="10.068" timestamp="2014-08-14T14:07:28">
       <properties />
 
-      <testcase classname="com.hrms.EmpControllerSpec" name="Test the index action returns the correct model" time="8.17" />
+      <testcase classname="com.hrms.EmpControllerSpec" name="Test the index action returns the correct model" time="8.291" />
 
-      <testcase classname="com.hrms.EmpControllerSpec" name="Test the create action returns the correct model" time="0.111" />
+      <testcase classname="com.hrms.EmpControllerSpec" name="Test the create action returns the correct model" time="0.231" />
 
-      <testcase classname="com.hrms.EmpControllerSpec" name="Test the save action correctly persists an instance" time="1.871" />
+      <testcase classname="com.hrms.EmpControllerSpec" name="Test the save action correctly persists an instance" time="1.007" />
 
-      <testcase classname="com.hrms.EmpControllerSpec" name="Test that the show action returns the correct model" time="0.259" />
+      <testcase classname="com.hrms.EmpControllerSpec" name="Test that the show action returns the correct model" time="0.06" />
 
-      <testcase classname="com.hrms.EmpControllerSpec" name="Test that the edit action returns the correct model" time="0.567" />
+      <testcase classname="com.hrms.EmpControllerSpec" name="Test that the edit action returns the correct model" time="0.057" />
 
-      <testcase classname="com.hrms.EmpControllerSpec" name="Test the update action performs an update on a valid domain instance" time="0.168" />
+      <testcase classname="com.hrms.EmpControllerSpec" name="Test the update action performs an update on a valid domain instance" time="0.188" />
 
-      <testcase classname="com.hrms.EmpControllerSpec" name="Test that the delete action deletes an instance if it exists" time="0.115" />
+      <testcase classname="com.hrms.EmpControllerSpec" name="Test that the delete action deletes an instance if it exists" time="0.114" />
 
       <system-out><![CDATA[--Output from Test the index action returns the correct model--
 --Output from Test the create action returns the correct model--
@@ -36,80 +36,80 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="Dell" id="1" name="EmpSpec" package="com.hrms" tests="37" time="1.855" timestamp="2014-08-11T14:32:52">
+  <testsuite errors="0" failures="0" hostname="Dell" id="1" name="EmpSpec" package="com.hrms" tests="37" time="1.455" timestamp="2014-08-14T14:07:38">
       <properties />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints num is nullable" time="0.659" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints num is nullable" time="0.395" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints num is nullable" time="0.049" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints num is nullable" time="0.041" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints num is unique" time="0.046" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints num is unique" time="0.038" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints num is valid" time="0.037" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints num is valid" time="0.034" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints ename is nullable" time="0.033" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints ename is nullable" time="0.035" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints ename is valid" time="0.031" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints ename is valid" time="0.032" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints ename is nullable" time="0.042" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints ename is nullable" time="0.03" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints aname is nullable" time="0.034" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints aname is nullable" time="0.035" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints aname is nullable" time="0.053" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints aname is nullable" time="0.033" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints aname is valid" time="0.032" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints aname is valid" time="0.024" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints dob is max" time="0.035" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints dob is max" time="0.029" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints dob is nullable" time="0.048" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints dob is nullable" time="0.027" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints dob is nullable" time="0.033" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints dob is nullable" time="0.026" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints dob is valid" time="0.03" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints dob is valid" time="0.026" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints gender is inList" time="0.03" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints gender is inList" time="0.027" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints gender is nullable" time="0.039" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints gender is nullable" time="0.034" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints gender is nullable" time="0.03" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints gender is nullable" time="0.023" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints gender is valid" time="0.028" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints gender is valid" time="0.02" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints gender is valid" time="0.028" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints gender is valid" time="0.017" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints nationality is nullable" time="0.029" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints nationality is nullable" time="0.026" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints nationality is nullable" time="0.029" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints nationality is nullable" time="0.027" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints nationality is valid" time="0.027" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints nationality is valid" time="0.036" />
 
       <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints religion is nullable" time="0.028" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints religion is nullable" time="0.033" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints religion is nullable" time="0.027" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints religion is valid" time="0.03" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints religion is valid" time="0.027" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints doj is max" time="0.029" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints doj is max" time="0.033" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints doj is nullable" time="0.026" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints doj is nullable" time="0.025" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints doj is nullable" time="0.029" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints doj is nullable" time="0.024" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints doj is valid" time="0.026" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints doj is valid" time="0.025" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints mobile is size" time="0.029" />
-
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints mobile is valid" time="0.026" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints mobile is size" time="0.027" />
 
       <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints mobile is valid" time="0.026" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints email is notEqual" time="0.032" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints mobile is valid" time="0.026" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints email is email" time="0.022" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints email is notEqual" time="0.036" />
 
-      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints email is valid" time="0.025" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints email is email" time="0.024" />
 
-      <testcase classname="com.hrms.EmpSpec" name="Emp mobile using aaaaaaaaaaaaaaa results in false" time="0.029" />
+      <testcase classname="com.hrms.EmpSpec" name="test Emp all constraints email is valid" time="0.024" />
+
+      <testcase classname="com.hrms.EmpSpec" name="Emp mobile using aaaaaaaaaaaaaaa results in false" time="0.031" />
 
       <testcase classname="com.hrms.EmpSpec" name="Emp mobile using 009661234567890 results in true" time="0.024" />
 

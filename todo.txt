@@ -1,3 +1,4 @@
+http://edgibbs.com/spock-intro-a-bdd-testing-framework-in-groovy/
 http://grails.org/plugin/spock
 http://grails.org/doc/latest/guide/testing.html
 http://grails101.wordpress.com/2012/04/22/test-grails-application-with-spock/
